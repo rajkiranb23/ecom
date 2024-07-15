@@ -23,6 +23,7 @@ experience for managing and using the
 ## Screenshots
 
 Homepage:
+
 ![image](https://github.com/user-attachments/assets/782aa6ee-a481-4d9e-b9f4-9b379f7e6660)
 
 ![image](https://github.com/user-attachments/assets/26423dc9-ad55-44a8-8b26-03ad5379de4a)
@@ -31,16 +32,21 @@ Homepage:
 
 ![image](https://github.com/user-attachments/assets/abef6876-8eba-40da-8c9a-e91b8f86fb2c)
 
+Product Page:
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![image](https://github.com/user-attachments/assets/cf40adef-5f88-4c09-b60d-0ed47055399c)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+Admin:
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![image](https://github.com/user-attachments/assets/4349f169-7f82-40c9-8d71-581dc8644ae5)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![image](https://github.com/user-attachments/assets/7e5f8eef-fffe-49c7-a855-77a106e48963)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+Login and Signup:
+![image](https://github.com/user-attachments/assets/1fcfbea5-21f9-4099-b551-2a5b639b65c9)
+
+![image](https://github.com/user-attachments/assets/0ceadb1d-baa2-401c-a4fd-7c8c91be130b)
+
 ## 🛠 Skills
 React js ,Javascript, HTML, CSS , MERN stack , responsive web development
 
