@@ -1,0 +1,32 @@
+.category_img_container img {
+  width: 180px;
+  height: 180px;
+}
+.category_heading p {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+.categories {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  margin-top: 20px;
+}
+.category {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 17px;
+}
+.category_img:hover {
+  transform: scale(1.05);
+  transition: 0.6s;
+}
+.category_img {
+  cursor: pointer;
+}

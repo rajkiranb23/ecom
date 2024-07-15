@@ -1,0 +1,22 @@
+.cartItem {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  gap: 75px;
+  padding: 20px 0px;
+}
+.cartItem img {
+  width: 100%;
+}
+
+.cartItem p {
+  text-align: center;
+}
+@media (max-width: 575px) {
+}
+@media (min-width: 575px) and (max-width: 770px) {
+}
+@media (min-width: 770px) and (max-width: 990px) {
+}
+@media (min-width: 990px) and (max-width: 1200px) {
+}

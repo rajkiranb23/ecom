@@ -1,0 +1,263 @@
+.offers_section {
+  width: 80%;
+  /* height: 240px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+}
+
+.offers_section_container {
+  display: flex;
+  justify-content: center;
+  /* height: 240px; */
+  margin-top: 60px;
+}
+
+.girls_offers,
+.mens_offers {
+  width: 550px;
+  /* height: 240px; */
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.girls_offers {
+  background: linear-gradient(90deg, #90f7ec 0%, #32ccbc 100%);
+}
+
+.mens_offers {
+  background: linear-gradient(90deg, #fec163 0%, #de4313 100%);
+}
+
+.offer_img_container img {
+  width: 100%;
+}
+
+.offer_info_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.offers_shopnow_btn {
+  width: 160px;
+  padding: 14px 40px;
+  border: none;
+  background: whitesmoke;
+  border-radius: 30px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: 25px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.offer_heading {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: white;
+  margin-left: 40px;
+}
+
+.heading_1 {
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.offer_sub {
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+  font-weight: 500;
+  margin-top: 25px;
+  margin-left: 40px;
+}
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .offers_section {
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+  }
+
+  .offers_section_container {
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+  }
+
+  .girls_offers,
+  .mens_offers {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .offer_info_container {
+    padding: 20px;
+  }
+
+  .offers_shopnow_btn {
+    margin: 10px auto;
+  }
+
+  .offer_heading,
+  .heading_1,
+  .offer_sub {
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 770.98px) {
+  .offers_section {
+    flex-direction: column;
+    /* height: auto; */
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .offers_section_container {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .girls_offers,
+  .mens_offers {
+    width: 350px;
+    /* height: auto; */
+    height: 200px;
+    border-radius: 10px;
+  }
+
+  .offer_info_container {
+    padding: 20px;
+  }
+
+  .offers_shopnow_btn {
+    margin: 8px auto;
+  }
+
+  .offer_heading,
+  .heading_1,
+  .offer_sub {
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .offers_section {
+    flex-direction: row;
+    height: auto;
+    gap: 30px;
+  }
+
+  .offers_section_container {
+    flex-direction: row;
+    margin-top: 40px;
+  }
+
+  .girls_offers,
+  .mens_offers {
+    width: 45%;
+    height: auto;
+    border-radius: 15px;
+  }
+
+  .offer_info_container {
+    padding: 20px;
+  }
+
+  .offers_shopnow_btn {
+    margin: 10px auto;
+  }
+
+  .offer_heading,
+  .heading_1,
+  .offer_sub {
+    margin-left: 20px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .offers_section {
+    flex-direction: row;
+    height: 240px;
+    gap: 40px;
+  }
+
+  .offers_section_container {
+    flex-direction: row;
+    margin-top: 60px;
+  }
+
+  .girls_offers,
+  .mens_offers {
+    width: 50%;
+    height: 240px;
+    border-radius: 20px;
+  }
+
+  .offer_info_container {
+    padding: 20px;
+  }
+
+  .offers_shopnow_btn {
+    margin: 25px auto;
+  }
+
+  .offer_heading,
+  .heading_1,
+  .offer_sub {
+    margin-left: 40px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .offers_section {
+    flex-direction: row;
+    height: 240px;
+    gap: 40px;
+  }
+
+  .offers_section_container {
+    flex-direction: row;
+    margin-top: 60px;
+  }
+
+  .girls_offers,
+  .mens_offers {
+    width: 550px;
+    height: 240px;
+    border-radius: 20px;
+  }
+
+  .offer_info_container {
+    padding: 20px;
+  }
+
+  .offers_shopnow_btn {
+    margin: 25px auto;
+  }
+
+  .offer_heading,
+  .heading_1,
+  .offer_sub {
+    margin-left: 40px;
+  }
+}

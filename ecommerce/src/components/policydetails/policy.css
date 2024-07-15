@@ -1,0 +1,31 @@
+.policy_details {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.policies {
+  width: 350px;
+  height: 65px;
+  /* border: 1px solid; */
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-evenly; */
+  padding: 15px 10px;
+  gap: 30px;
+}
+.img_container img {
+  width: 60px;
+  height: 60px;
+}
+.policy_txt_main {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+.policy_txt_sub {
+  font-family: "Ubuntu", sans-serif;
+  /* font-weight: 700; */
+  font-size: 14px;
+}
