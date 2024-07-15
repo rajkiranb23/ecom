@@ -16,7 +16,7 @@ const ProductPage = () => {
       try {
         console.log(productId);
         const response = await fetch(
-          `http://localhost:5000/productdata/${productId}`
+          `https://rajkiranb23.onrender.com/productdata/${productId}`
         );
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);

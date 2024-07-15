@@ -11,7 +11,7 @@ const ShopCategory = ({ image, pageCat }) => {
 
   const fetchInfo = async () => {
     try {
-      const response = await fetch("http://localhost:5000/allproducts", {
+      const response = await fetch("https://rajkiranb23.onrender.com/allproducts", {
         mode: "cors",
       });
 

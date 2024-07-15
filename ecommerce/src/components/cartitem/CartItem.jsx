@@ -5,17 +5,20 @@ const CartItem = ({ data, quantity }) => {
   const removeFromCart = async (itemId) => {
     try {
       if (localStorage.getItem("auth-token")) {
-        const response = await fetch("http://localhost:5000/removefromcart", {
-          method: "POST",
-          headers: {
-            Accept: "application/json",
-            "auth-token": localStorage.getItem("auth-token"),
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            itemId: itemId,
-          }),
-        });
+        const response = await fetch(
+          "https://rajkiranb23.onrender.com/removefromcart",
+          {
+            method: "POST",
+            headers: {
+              Accept: "application/json",
+              "auth-token": localStorage.getItem("auth-token"),
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({
+              itemId: itemId,
+            }),
+          }
+        );
 
         if (!response.ok) {
           throw new Error("Failed to remove item from cart");

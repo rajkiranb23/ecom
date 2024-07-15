@@ -16,7 +16,7 @@ const LoginSignup = () => {
   const signup = async () => {
     let responseData;
     axios
-      .post("http://localhost:5000/signup", formData)
+      .post("https://rajkiranb23.onrender.com/signup", formData)
       .then(({ data }) => {
         if (data.success) {
           window.alert("signed up success");
@@ -29,7 +29,7 @@ const LoginSignup = () => {
   const login = async () => {
     try {
       const response = await axios.post(
-        "http://localhost:5000/login",
+        "https://rajkiranb23.onrender.com/login",
         formData
       );
       const { success, token, userName, message } = response.data;
