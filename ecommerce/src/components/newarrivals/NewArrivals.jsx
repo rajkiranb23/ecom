@@ -35,7 +35,7 @@ const NewArrivals = () => {
 
   useEffect(() => {
     fetchInfo();
-    // console.log(allProducts);
+    console.log(allProducts);
   }, []);
 
   return (

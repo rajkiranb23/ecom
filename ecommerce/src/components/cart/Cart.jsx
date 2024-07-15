@@ -28,16 +28,25 @@ const Cart = () => {
   const fetchCart = async () => {
     try {
       if (localStorage.getItem("auth-token")) {
-        fetch("https://rajkiranb23.onrender.com/getCartData", {
-          method: "GET",
-          headers: {
-            Accept: "application/json",
-            "auth-token": localStorage.getItem("auth-token"),
-            "Content-Type": "application/json",
-          },
-        })
-          .then((response) => response.json())
-          .then((data) => setarray(Object.entries(data)));
+        const response = await fetch(
+          "https://rajkiranb23.onrender.com/getCartData",
+          {
+            method: "GET",
+            headers: {
+              Accept: "application/json",
+              "auth-token": localStorage.getItem("auth-token"),
+              "Content-Type": "application/json",
+            },
+          }
+        );
+
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+
+        const data = await response.json();
+        console.log("Cart data:", data); // Log the data
+        setarray(Object.entries(data));
       }
     } catch (error) {
       console.error("Error fetching cart data:", error);

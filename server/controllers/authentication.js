@@ -12,6 +12,7 @@ const auth = async (req, res, next) => {
     if (!user) {
       console.log("user not found");
     }
+    console.log("Authenticated user:", user); // Log the user data
     req.token = token;
     req.user = user;
     next();

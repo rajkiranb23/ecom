@@ -104,7 +104,7 @@ const Nav = () => {
                 <ul className="dropdown-menu">
                   <li
                     onClick={() => {
-                      handleLogin();
+                      handleLogout();
                     }}
                   >
                     Logout
