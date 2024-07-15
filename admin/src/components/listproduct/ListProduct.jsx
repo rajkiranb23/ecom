@@ -5,9 +5,12 @@ const ListProduct = () => {
   const [allProducts, setAllProducts] = useState([]);
   const fetchInfo = async () => {
     try {
-      const response = await fetch("http://localhost:5000/allproducts", {
-        mode: "cors",
-      });
+      const response = await fetch(
+        "https://rajkiranb23.onrender.com/allproducts",
+        {
+          mode: "cors",
+        }
+      );
 
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);

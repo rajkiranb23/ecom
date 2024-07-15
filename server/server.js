@@ -5,7 +5,7 @@ const Connection = require("./database/Db.js");
 const Router = require("./routes/route");
 const app = express();
 
-const PORT = process.env.PORT || 5000;
+const PORT = 5000;
 
 app.use(express.json());
 app.use(cors());
